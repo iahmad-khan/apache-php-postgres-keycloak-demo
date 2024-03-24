@@ -1,0 +1,25 @@
+PHP-webServer  | [Sun Mar 24 09:28:56.065183 2024] [auth_openidc:debug] [pid 21] src/util.c(2565): [client 192.168.65.1:60290] oidc_util_hdr_in_get: 
+Cookie=mod_auth_openidc_state_rn5CRCP7iQCrjBHH2IbNzUt1PjQ=eyJhbGciOiAiZGlyIiwgImVuYyI6ICJBMjU2R0NNIn0..lpHzNqE0nTFrYH0S.2eCA7veFxayYtBaLA0rWQm5BjopS6CaI12IDDCEDKB9Ie0j3p2ArHmfIBD3ALNyEpXSkCtO5Rkh3aSpN4zqD3VISYoNVY_4hGOizcWHzzQkRkkx2V1ROSG4wlWqNTIXCSOVDwBQH3ei2e-42sXI4n0RVerRLOhyi87l-WQzql-Y8J6gvWRbW1Z_pT8VvCDpdn2Rv0BZ7lVfkPRSdbasNz6sZdZNrL60Pyb6raWPHKS5pcN9GajHp_zckIFsFpbeaSJr9-EgrAiTxM6AynMc6ucNOHC--mElb2HvgqC7KlU1JzBiI115UfUfn4uZLp_jUTKoYnTSMIjO9gNS-6zg6CMB57KPkFNkvDlIl4nyrOLhe8YxOn7f5W2DPRquBES4.VT9vWLlXBcG4dBgAJFhQNw; 
+mod_auth_openidc_session=rkG1HgYhgvy6EQlubIFAo3DGdYw
+PHP-webServer  | [Sun Mar 24 09:28:56.065201 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of Require valid-user : granted
+PHP-webServer  | [Sun Mar 24 09:28:56.065207 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of <RequireAny>: granted
+PHP-webServer  | [Sun Mar 24 09:28:56.065356 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of Require valid-user : denied (no authenticated user yet)
+PHP-webServer  | [Sun Mar 24 09:28:56.065364 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of <RequireAny>: denied (no authenticated user yet)
+PHP-webServer  | [Sun Mar 24 09:28:56.065370 2024] [auth_openidc:debug] [pid 21] src/mod_auth_openidc.c(4048): [client 192.168.65.1:60290] oidc_check_user_id: 
+incoming request: "/index.php?(null)", ap_is_initial_req(r)=0
+PHP-webServer  | [Sun Mar 24 09:28:56.065376 2024] [auth_openidc:debug] [pid 21] src/mod_auth_openidc.c(3930): [client 192.168.65.1:60290] 
+oidc_check_userid_openidc: recycling user 'apache' from initial request for sub-request
+PHP-webServer  | [Sun Mar 24 09:28:56.065383 2024] [auth_openidc:debug] [pid 21] src/util.c(2565): [client 192.168.65.1:60290] oidc_util_hdr_in_get: 
+Cookie=mod_auth_openidc_state_rn5CRCP7iQCrjBHH2IbNzUt1PjQ=eyJhbGciOiAiZGlyIiwgImVuYyI6ICJBMjU2R0NNIn0..lpHzNqE0nTFrYH0S.2eCA7veFxayYtBaLA0rWQm5BjopS6CaI12IDDCEDKB9Ie0j3p2ArHmfIBD3ALNyEpXSkCtO5Rkh3aSpN4zqD3VISYoNVY_4hGOizcWHzzQkRkkx2V1ROSG4wlWqNTIXCSOVDwBQH3ei2e-42sXI4n0RVerRLOhyi87l-WQzql-Y8J6gvWRbW1Z_pT8VvCDpdn2Rv0BZ7lVfkPRSdbasNz6sZdZNrL60Pyb6raWPHKS5pcN9GajHp_zckIFsFpbeaSJr9-EgrAiTxM6AynMc6ucNOHC--mElb2HvgqC7KlU1JzBiI115UfUfn4uZLp_jUTKoYnTSMIjO9gNS-6zg6CMB57KPkFNkvDlIl4nyrOLhe8YxOn7f5W2DPRquBES4.VT9vWLlXBcG4dBgAJFhQNw; 
+mod_auth_openidc_session=rkG1HgYhgvy6EQlubIFAo3DGdYw
+PHP-webServer  | [Sun Mar 24 09:28:56.065391 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of Require valid-user : granted
+PHP-webServer  | [Sun Mar 24 09:28:56.065394 2024] [authz_core:debug] [pid 21] mod_authz_core.c(815): [client 192.168.65.1:60290] AH01626: authorization result 
+of <RequireAny>: granted
+PHP-webServer  | [Sun Mar 24 09:28:56.065461 2024] [auth_openidc:debug] [pid 21] src/util.c(1443): [client 192.168.65.1:60290] oidc_util_request_matches_url: 
+comparing "/"=="/*"
+
