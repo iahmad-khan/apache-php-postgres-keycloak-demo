@@ -8,8 +8,13 @@ Apache and keycloak are sharing the same Postgres instance
 
 /etc/hosts file entries
 
+```
+
 127.0.0.1 webserver
+
 127.0.0.1 keycloak
+
+```
 
 
 then run:

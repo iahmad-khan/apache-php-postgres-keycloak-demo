@@ -10,8 +10,9 @@ the terraform code inside the infrastcture directory creates the required infras
  - CERTBot installation and certs creations etc
 
 
-# Apps depoloyment ( the deployment directory )
+# Deployments
 
+ - the deployments directory
  - the docker and docker compose files, along with keycloak script ( apache-config.sh ), and apache conf file 
  - configures everything required for this task, deployment dir contents need to be run on app server ( keycloak, apache-php, and postgres )
 
@@ -38,9 +39,12 @@ docker-compose up -d
 and then access apache-php on http://webserver:8000, it should redirect to keycloak and ask for
 
 
+```
+
 user:  apache
 password: password.
 
+```
 
 
 once authentication is done, it should dislay the apache php page with message, "connected to postgres sucessfully" 
