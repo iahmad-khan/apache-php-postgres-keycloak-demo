@@ -10,6 +10,24 @@ the terraform code inside the infrastcture directory creates the required infras
  - CERTBot installation and certs creations etc
 
 
+Related commands
+
+```
+
+cd infrastructre
+
+tfevn install 1.6.6
+tfevn use 1.6.6
+
+terraform init
+terraform validate
+
+terraform plan
+terraform apply
+
+
+```
+
 # Deployments
 
  - the deployments directory
