@@ -1,4 +1,4 @@
-# Infrastrcture
+# Infrastructure
 
 the terraform code inside the infrastcture directory creates the required infrascture resources
  
